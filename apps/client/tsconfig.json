@@ -1,0 +1,13 @@
+{
+  "exclude": ["node_modules"],
+  "extends": "@knoffel/tsconfig/next.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["src", "next-env.d.ts", ".next/types/**/*.ts"]
+}

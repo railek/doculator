@@ -1,7 +1,7 @@
 const project = require('@knoffel/tsconfig/base.json');
 
 module.exports = {
-  extends: ['eslint:recommended', 'airbnb-base', 'plugin:node/recommended', 'turbo', 'prettier'],
+  extends: ['eslint:recommended', 'airbnb-base', 'turbo', 'prettier'],
   plugins: ['import', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
