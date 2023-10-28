@@ -4,14 +4,18 @@ An all-in-one web app for saving and sharing recipes, planning meals, and organi
 
 ## Features
 
-- Type checking via [TypeScript](https://www.typescriptlang.org/)
+- Type checking with [TypeScript](https://www.typescriptlang.org/)
+- Code Formatter with [Prettier](https://prettier.io/)
+- Code Linting with [ESLint](https://eslint.org/)
 
 ## Dependencies
 
 This project uses the following dependencies:
 
-- `typescript`: Superset of JavaScript that adds optional static typing.
-- `turbo`: Incremental bundler and build system
+- [`typescript`](https://www.npmjs.com/package/typescript)
+- [`turbo`](https://www.npmjs.com/package/turbo)
+- [`prettier`](https://www.npmjs.com/package/prettier)
+- [`eslint`](https://www.npmjs.com/package/eslint)
 
 ## License
 
